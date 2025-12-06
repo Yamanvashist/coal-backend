@@ -9,6 +9,6 @@ app.use(express.json()); // <- mandatory bro
 
 app.use("/api",userRoute)
 
-connection("usersDetails")
+connection()
 
 app.listen(8000,()=>console.log("Server started"))
